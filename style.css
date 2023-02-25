@@ -143,7 +143,8 @@ body {
   max-width: 100%;
 }
 
-.hero__cta:hover {
+.hero__cta:hover,
+.hero__cta:focus {
   background-color: var(--clr-soft-magenta);
   color: #fff;
 }
@@ -175,7 +176,8 @@ body {
   -o-transition: color 600ms, border 600ms;
 }
 
-.footer__icon:hover {
+.footer__icon:hover,
+.footer__icon:focus {
   color: var(--clr-soft-magenta);
   border-color: var(--clr-soft-magenta);
 }
